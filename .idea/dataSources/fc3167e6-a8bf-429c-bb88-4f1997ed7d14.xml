@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="how2java@localhost">
+<dataSource name="@localhost">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.9">
     <root id="1">
       <ServerVersion>8.0.11</ServerVersion>
@@ -8,6 +8,7 @@
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="customer">
+      <Current>1</Current>
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="day32">
@@ -20,7 +21,6 @@
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <schema id="6" parent="1" name="how2java">
-      <Current>1</Current>
       <Visible>1</Visible>
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
